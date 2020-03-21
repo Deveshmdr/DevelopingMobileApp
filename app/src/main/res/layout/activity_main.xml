@@ -7,6 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bga"
     >
 
 <LinearLayout
@@ -28,7 +29,7 @@
             android:text="@string/team_a"
             android:paddingBottom="@dimen/padding_small"
             android:textSize="24sp"
-            android:textColor="#616161"
+            android:textColor="#ffffff"
             android:fontFamily="sans-serif-medium"
             android:padding="16dp"
             />
@@ -38,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" 0 "
-            android:textColor="@color/black"
+            android:textColor="#fff"
             android:textSize="56sp"
             android:fontFamily="sans-serif-light"
             android:padding="16dp" />
@@ -58,6 +59,7 @@
             android:layout_width="match_parent"
             android:textColor="#ffffff"
             android:layout_height="wrap_content"
+            android:onClick="add2ForTeamA"
             android:text="+2 Points"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -67,6 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+1 Points"
+            android:onClick="add1ForTeamA"
             android:textColor="#ffffff"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -94,7 +97,7 @@
             android:text="Team B "
             android:padding="16dp"
             android:textSize="24sp"
-            android:textColor="#616161"
+            android:textColor="#ffffff"
             android:fontFamily="sans-serif-medium"/>
 
         <TextView
@@ -103,7 +106,7 @@
             android:layout_height="wrap_content"
             android:text=" 0 "
             android:textSize="56sp"
-            android:textColor="#000000"
+            android:textColor="#fff"
             android:fontFamily="sans-serif-light"
             android:padding="16dp"
             />
@@ -112,6 +115,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:onClick="add3ForTeamB"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
             android:textColor="#ffffff"
@@ -121,6 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 Points"
+            android:onClick="add2ForTeamB"
             android:textColor="#ffffff"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
@@ -129,6 +134,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+1 Points"
+            android:onClick="add1ForTeamB"
             android:textColor="#ffffff"
             android:layout_marginRight="24dp"
             android:layout_marginLeft="24dp"/>
